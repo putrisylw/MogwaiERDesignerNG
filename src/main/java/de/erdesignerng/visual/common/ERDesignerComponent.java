@@ -771,6 +771,10 @@ public final class ERDesignerComponent implements ResourceHelperProvider {
         theToolBar.add(commentButton);
         theToolBar.add(viewButton);
 
+        theToolBar.addSeparator();
+        theToolBar.add(theDBConnectionAction);
+        theToolBar.add(theGenerateSQL);
+
         intelligentLayoutCheckbox = new DefaultCheckBox(
                 ERDesignerBundle.INTELLIGENTLAYOUT);
         intelligentLayoutCheckbox.setSelected(ApplicationPreferences.getInstance()

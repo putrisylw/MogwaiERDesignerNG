@@ -410,6 +410,7 @@
         <Entry id="GENERATECREATEDBDDL">
             <Text lang="de">DDL Generierung...</Text>
             <Text lang="en">Create DDL for model...</Text>
+            <Icon>/de/erdesignerng/icons/ddl.png</Icon>
         </Entry>
         <Entry id="EXECUTESCRIPT">
             <Text lang="de">Ausführen</Text>
